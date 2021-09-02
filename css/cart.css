@@ -1,0 +1,209 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.card-img-top{
+  width: 320px;
+  height: 200px;
+}
+
+#heading-main{
+  text-align: center;
+  margin: 150px 0 50px 0;
+  font-family: 'Inter', sans-serif;
+  color: #06b19f;
+  font-size: 300%;
+  font-weight: 700;
+}
+
+#current{
+  margin-left: 41.5%;
+  margin-bottom: 130px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #05B1A0;
+  border-color: #05B1A0;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #FD7133;
+  border-color: #FD7133;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+#revote{
+  background-color: #FD7133;
+  border-color: #FD7133;
+  margin: 50px 0 50px 41.5%;
+}
+
+#revote:hover{
+  background-color: #05B1A0;
+  border-color: #05B1A0;
+  margin: 50px 0 50px 41.5%;
+}
+
+#order{
+    margin-left: 46%;
+}
+
+#dot {
+  background-color: #FD7133;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  display: inline;
+  float: left;
+  margin-left: -40%;
+  margin-top: -18%;
+  position: absolute;
+}
+
+#dot2 {
+	background-color: #05B1A0;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	display: inline;
+	float: left;
+	margin-left: 42%;
+	margin-top: 10%;
+	position: absolute;
+	opacity: 50%;
+}
+
+#dot3 {
+	background-color: #FD7133;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: inline;
+	float: left;
+	margin-left: 40%;
+	margin-top: 19%;
+	position: absolute;
+	opacity: 75%;
+}
+
+#dot4 {
+	background-color: #05B1A0;
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+	display: inline;
+	float: left;
+	margin-left: -43%;
+	margin-top: 14%;
+	position: absolute;
+	opacity: 40%;
+}
+
+
+
+@media(max-width:1550px){
+
+  #current{
+    margin-left: 40%;
+  }
+
+}
+
+@media(max-width:1350px){
+
+  #current{
+    margin-left: 38%;
+  }
+
+}
+
+@media(max-width:1200px){
+
+  #one{
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+
+  #three{
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+
+  #five{
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+
+}
+
+@media(max-width:1000px){
+
+  #one{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  #three{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  #five{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+}
+
+@media(max-width:950px){
+
+  #current{
+    margin-left: 32%;
+  }
+
+}
+
+@media(max-width:768px){
+
+  #one{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #three{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #five{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #two{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #four{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #six{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+
+
+
+}
